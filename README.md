@@ -81,7 +81,7 @@ TestDPC v9.0.5+ can be setup as Device Management Role Holder.
     adb shell cmd role add-role-holder android.app.role.DEVICE_POLICY_MANAGEMENT com.afwsamples.testdpc
     ```
 
-    Note: unlike DO/PO, this change is not persisted so TestDPC needs to be
+    Note: unlike DO/PO, this change is not persiste so TestDPC needs to be
     marked as role holder again if the device reboots.
 
 ## Android Studio import
